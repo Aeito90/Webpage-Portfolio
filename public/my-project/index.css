@@ -1,10 +1,5 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-html {
+html{
       font-size: calc(60% + 0.8vmin);
       scroll-behavior: smooth;
 }
@@ -23,8 +18,7 @@ body {
     top: 0;
     justify-content: center; 
     align-items: center;
-    background-color: #e3e3e3ce;
-    backdrop-filter: blur(100px);
+    background-color: #e3e3e3;
     padding: 0.1rem 0; 
       width: 100%;
     margin: 0 ;
@@ -35,7 +29,6 @@ font-size: 1.1rem;
 margin-right: clamp(1rem, 5vw + 1vh, 6rem);
 color: #282828;
 }
-
 .nav-col-box {
     width: 39px;
     height: 15px;
@@ -75,8 +68,8 @@ color: #282828;
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 25px;
-    height: 16px;
+    width: 24px;
+    height: 15px;
 }
 
 .toggle-button .bar {
@@ -161,14 +154,15 @@ color: #282828;
     color: #e4e4e4 ;
 }
 #mip {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     color:#282828 ;
 }
 #pkw-txt {
-     font-size: 2rem;
+     font-size: 1rem;
     text-align: center;
     color: #3F5F76 ;
+    margin-top: -0.5vh;
 }
 
 .page-2 {
@@ -176,14 +170,13 @@ color: #282828;
     width: 100%;
     background-color: #7E9EB2;
     position: relative;
-    top: .2rem;
+    top: -0.7rem;
 }
 
 .page-2 h2 {
     text-align: center;
     padding-top: 4rem;
     color: #ffffff;
-    padding-bottom: 1rem;
 }
 
 .page-2 p {
@@ -217,25 +210,9 @@ max-width: 25%;
   flex: 1 1 200px;
 }
 
-#nav-btn-page-2 {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 2rem;
-    transform: scale(1.5);
-    backdrop-filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
-    text-decoration: none;
-}
-
-.page-3 {
-    height: 100dvh;
-    width: 100%;
-    background-color: #f5f5f5;
-}
 /*footer*/  
 .footer {
-    height: 3em;
+    height: 60px;
     width: 100%;
     background-color: #282828;
     display: flex;

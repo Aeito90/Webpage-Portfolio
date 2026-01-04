@@ -25,7 +25,7 @@ document.addEventListener('pointerdown', closeMenuIfClickedOutside)
 navbarLinks.addEventListener('click', (e) => {
   if (e.target && e.target.matches('a')) {
     // allow normal link navigation, but close menu on small screens
-    if (window.matchMedia('(max-width: 768px)').matches) {
+    if (window.matchMedia('(max-width: 750px)').matches) {
       navbarLinks.classList.remove('active')
       toggleButton.classList.remove('active')
     }
